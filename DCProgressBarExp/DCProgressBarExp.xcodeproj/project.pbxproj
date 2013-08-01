@@ -7,12 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		184C48B717AAFFBC006EAF36 /* DCProgressBar.h in Sources */ = {isa = PBXBuildFile; fileRef = 184C48B317AAFFBC006EAF36 /* DCProgressBar.h */; };
 		184C48B817AAFFBC006EAF36 /* DCProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C48B417AAFFBC006EAF36 /* DCProgressBar.m */; };
-		184C48B917AAFFBC006EAF36 /* UIViewController+DCProgressBarExtention.h in Sources */ = {isa = PBXBuildFile; fileRef = 184C48B517AAFFBC006EAF36 /* UIViewController+DCProgressBarExtention.h */; };
 		184C48BA17AAFFBC006EAF36 /* UIViewController+DCProgressBarExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C48B617AAFFBC006EAF36 /* UIViewController+DCProgressBarExtention.m */; };
 		18BCE62917A7DD7B000060FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCE62817A7DD7B000060FA /* Foundation.framework */; };
-		18BCE62B17A7DD7B000060FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCE62A17A7DD7B000060FA /* CoreGraphics.framework */; };
 		18BCE62D17A7DD7B000060FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCE62C17A7DD7B000060FA /* UIKit.framework */; };
 		18BCE63317A7DD7B000060FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BCE63117A7DD7B000060FA /* InfoPlist.strings */; };
 		18BCE63517A7DD7B000060FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCE63417A7DD7B000060FA /* main.m */; };
@@ -71,7 +68,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BCE66117A7E00E000060FA /* QuartzCore.framework in Frameworks */,
-				18BCE62B17A7DD7B000060FA /* CoreGraphics.framework in Frameworks */,
 				18BCE62D17A7DD7B000060FA /* UIKit.framework in Frameworks */,
 				18BCE62917A7DD7B000060FA /* Foundation.framework in Frameworks */,
 			);
@@ -273,12 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184C48B917AAFFBC006EAF36 /* UIViewController+DCProgressBarExtention.h in Sources */,
 				184C48BA17AAFFBC006EAF36 /* UIViewController+DCProgressBarExtention.m in Sources */,
 				18BCE63F17A7DD7C000060FA /* ViewController.m in Sources */,
 				184C48B817AAFFBC006EAF36 /* DCProgressBar.m in Sources */,
 				18BCE63917A7DD7B000060FA /* AppDelegate.m in Sources */,
-				184C48B717AAFFBC006EAF36 /* DCProgressBar.h in Sources */,
 				18BCE63517A7DD7B000060FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
