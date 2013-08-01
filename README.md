@@ -6,6 +6,8 @@ DCProgressBar is a progress bar which mimic iOS 7 progress view but with more po
 
 ![DCProgressBar](http://d.pr/i/7P3R+) 
 
+*Open `DCProgressBarExp.xcodeproj` demo project to play with it. :smiley:*
+
 ### Design
 
 Have a space to indicate processing status is a common pattern. While iOS 7 bring us a thinner progress view, it make me think why not make more usage of the 3 pixel space to indicate more status of the current task. So here born the project.
