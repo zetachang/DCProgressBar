@@ -14,6 +14,5 @@
 - (IBAction)startLoading:(id)sender;
 - (IBAction)stopLoading:(id)sender;
 - (IBAction)showProgress:(id)sender;
-- (IBAction)toggleNavBar:(id)sender;
 
 @end

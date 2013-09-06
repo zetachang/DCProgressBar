@@ -44,16 +44,9 @@ static const int DCProgressBarHeight = 3;
 
 - (void)prepareProgressBar {
     if ([self dc_progressBar] == nil) {
-        CGRect frame = CGRectMake(0, 0, self.view.bounds.size.width, DCProgressBarHeight);
+        CGRect frame = CGRectMake(0, CGRectGetHeight(self.navigationController.navigationBar.frame) - DCProgressBarHeight + 1, self.view.bounds.size.width, DCProgressBarHeight);
         DCProgressBar* progressBar = [[DCProgressBar alloc] initWithFrame:frame];
-        progressBar.translatesAutoresizingMaskIntoConstraints = NO;
-        
-        [self.view addSubview:progressBar];
-        
-        id topGuide = self.topLayoutGuide;
-        [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[topGuide]-0-[progressBar]" options:0 metrics:nil views:NSDictionaryOfVariableBindings(progressBar, topGuide)]];
-        
-        [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[progressBar]|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(progressBar)]];
+        [self.navigationController.navigationBar addSubview:progressBar];
         
         
         [self dc_setProgressBar:progressBar];

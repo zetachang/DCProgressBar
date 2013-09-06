@@ -22,6 +22,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib
     _progress = 0.1;
+    [self extendedLayoutIncludesOpaqueBars];
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,9 +43,5 @@
     _progress *= 1.5;
     if (_progress > 1) _progress = 0.1;
     [self dc_setProgress:_progress];
-}
-
-- (IBAction)toggleNavBar:(id)sender {
-    self.navigationController.navigationBarHidden = !self.navigationController.navigationBarHidden;
 }
 @end
