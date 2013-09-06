@@ -27,8 +27,8 @@ Ensure **QuartzCore.framework** is added to your project.
 ### Notice
 
 * ARC only
-* Currently iOS 7 only 
-* Demo Project built with Xcode5-DP4
+* Only being tested on iOS 7 currently 
+* Demo Project built with Xcode5-DP6
 
 ### Under the Hood
 
@@ -37,7 +37,6 @@ Take advantage of Core Animation upon `CAGradientLayer`and **Associative Referen
 ### Plan
 
 * Indicate more status like **success** or **failure**.
-* Make it iOS 6 compatible.
 * Add Podspec.
 
 ### Contributions
